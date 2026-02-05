@@ -83,10 +83,12 @@
             <!-- Header -->
             <header class="header">
                 <div class="header-content">
-                    <div class="header-logo">📈</div>
+                    <div class="header-logo">
+                        <img src="logo.png" alt="Logo">
+                    </div>
                     <div class="header-text">
                         <h1>LMS</h1>
-                        <span class="header-subtitle">Learning Platform</span>
+                        <span class="header-subtitle"></span>
                     </div>
                 </div>
                 <div class="user-badge">
@@ -172,6 +174,8 @@
                         sandbox="allow-scripts allow-same-origin"
                         loading="lazy"
                     ></iframe>
+                    <!-- Transparent protective overlay to block right-click -->
+                    <div class="video-protection-overlay" id="videoProtectionOverlay"></div>
                     <div class="watermark-overlay" id="watermarkOverlay"></div>
                     <!-- 3-dot button overlay -->
                     <button id="tam-dots-btn" class="tam-dots-btn hidden" aria-label="More options" title="More options">
